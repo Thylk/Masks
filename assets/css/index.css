@@ -1,0 +1,47 @@
+#container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: #577399;
+}
+
+#bandeau-accueil {
+    width: 100%;
+    height: 250px;
+    background-color: #FE5F55;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#title {
+    font-family: Lobster;
+    color: whitesmoke;
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#subtitle {
+    font-family: Lobster;
+    color: whitesmoke;
+    font-size: 40px;
+}
+
+#intro-accueil {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    background-color: lavender;
+    margin: 10px;
+}
